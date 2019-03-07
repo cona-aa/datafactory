@@ -1,3 +1,21 @@
 {
-	"name": "COPY_DATA_FROM_ADLS_TO_ADLS_Customer"
+	"name": "COPY_DATA_FROM_ADLS_TO_ADLS_Customer",
+	"properties": {
+		"activities": [
+			{
+				"name": "ADLS_to_ADLS_Customer",
+				"type": "Copy",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"typeProperties": {
+					"enableStaging": false
+				}
+			}
+		]
+	}
 }
