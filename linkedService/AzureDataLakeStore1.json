@@ -1,0 +1,15 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://skuoptdl.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "97fcaba3-582a-4922-b9a8-e44ec510ef7c",
+			"tenant": "41d6d935-b276-4b34-a765-b8f238a9750f",
+			"subscriptionId": "ba3a17b2-83a0-4a08-8a9a-8d063d9e9188",
+			"resourceGroupName": "storage",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNPTkEtQUEtQURGMDAxXzk0MDdjZDkzLTc5MjYtNDYzYS1hNTZiLTFmOTU0N2FkMmQ4NyINCn0="
+		}
+	}
+}
