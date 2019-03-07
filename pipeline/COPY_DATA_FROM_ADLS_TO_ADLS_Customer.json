@@ -13,8 +13,18 @@
 					"secureInput": false
 				},
 				"typeProperties": {
+					"source": {
+						"type": "AzureDataLakeStoreSource",
+						"recursive": true
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "AzureDataLakeStoreFile1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		]
 	}
