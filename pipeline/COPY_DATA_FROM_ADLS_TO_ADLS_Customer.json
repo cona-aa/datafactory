@@ -17,11 +17,20 @@
 						"type": "AzureDataLakeStoreSource",
 						"recursive": true
 					},
+					"sink": {
+						"type": "AzureDataLakeStoreSink"
+					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "AzureDataLakeStoreFile1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureDataLakeStoreFile2",
 						"type": "DatasetReference"
 					}
 				]
